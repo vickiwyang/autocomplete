@@ -1,20 +1,3 @@
-/* *****************************************************************************
- *  Name:    Vicki Yang
- *  NetID:   vyang
- *  Precept: P04
- *
- *  Partner Name:    N/A
- *  Partner NetID:   N/A
- *  Partner Precept: N/A
- *
- *  Description: This class implements the immutable data type Term, which
- *  represents an autocomplete search term (a query string with an associated
- *  integer weight). Terms can be compared by: 1) lexicographic order of the
- *  query string, 2) in descending order by weight, and 3) by lexicographic
- *  order of the first r-characters of the query string.
- *
- **************************************************************************** */
-
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Arrays;
@@ -96,8 +79,6 @@ public class Term implements Comparable<Term> {
     }
 
     // Private helper method for printing out queries from an array of terms
-    /* @citation Adapted from: https://us.edstem.org/courses/638/lessons/5577/
-    slides/25620/solution. Accessed 9/25/2020. */
     private static void print(Term[] array) {
         for (Term t : array)
             StdOut.print(t.qry + " ");
