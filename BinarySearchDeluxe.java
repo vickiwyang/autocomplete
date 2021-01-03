@@ -1,21 +1,3 @@
-/* *****************************************************************************
- *  Name:    Vicki Yang
- *  NetID:   vyang
- *  Precept: P04
- *
- *  Partner Name:    N/A
- *  Partner NetID:   N/A
- *  Partner Precept: N/A
- *
- *  Description: This class is a modified implementation of binary search (see
- *  citation). firstIndexOf() and lastIndexOf() respectively returns the first
- *  and last keys matching the search key in a sorted array.
- *
- *  @citation Adapted from: https://www.cs.princeton.edu/courses/archive/fall20/
- *  cos226/lectures/21ElementarySorts.pdf. Accessed 9/27/2020.
- *
- **************************************************************************** */
-
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Comparator;
