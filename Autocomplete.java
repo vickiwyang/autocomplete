@@ -1,19 +1,3 @@
-/* *****************************************************************************
- *  Name:    Vicki Yang
- *  NetID:   vyang
- *  Precept: P04
- *
- *  Partner Name:    N/A
- *  Partner NetID:   N/A
- *  Partner Precept: N/A
- *
- *  Description:  This class implements the autocomplete functionality for a
- *  given set of strings and weights. Search terms are sorted in lexicographic
- *  order, then all matching query strings with a given prefix are found via
- *  binary search and sorted in descending order by weight.
- *
- **************************************************************************** */
-
 import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
