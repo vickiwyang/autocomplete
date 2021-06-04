@@ -7,7 +7,3 @@ This program implements autocomplete for a given set of *n* terms, where a term 
 **BinarySearchDeluxe.java** is a modified implementation of binary search adapted from [Bob Sedgewick and Kevin Wayne](https://algs4.cs.princeton.edu/11model/BinarySearch.java.html). firstIndexOf() and lastIndexOf() respectively returns the first and last keys matching the search key in a sorted array.
 
 **Autocomplete.java** implements the autocomplete functionality for a given set of strings and weights. Search terms are sorted in lexicographic order, then all matching query strings with a given prefix are found via binary search and sorted in descending order by weight.
-
---
-
-*This assignment was completed as part of COS 226 at Princeton University in Fall 2020.*
